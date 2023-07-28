@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "ChickenDisease"
+REPO_NAME = "Chicken-disease-classification-project"
 AUTHOR_USER_NAME = "mhussainahmad"
 SRC_REPO = "ChickenDisease"
 AUTHOR_EMAIL = "emhussain25@gmail.com"
@@ -20,5 +20,10 @@ setuptools.setup(
     description="Small python package for Chicken disease classification",
     long_description=long_description,
     long_description_content = "text/markdown",
-    src = f"htt"
+    src = f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    project_urls = {
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
+    },
+    package_dir={"": "src"},
+    packages=setuptools.find_packages(where="src")
 )
