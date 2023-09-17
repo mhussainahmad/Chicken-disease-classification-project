@@ -17,6 +17,7 @@ src/ChickenDisease/constants/__init__.py
 src/ChickenDisease/entity/__init__.py
 src/ChickenDisease/entity/config_entity.py
 src/ChickenDisease/pipeline/__init__.py
+src/ChickenDisease/pipeline/predict.py
 src/ChickenDisease/pipeline/stage_01_data_ingestion.py
 src/ChickenDisease/pipeline/stage_02_prepare_base_model.py
 src/ChickenDisease/pipeline/stage_03_training.py
